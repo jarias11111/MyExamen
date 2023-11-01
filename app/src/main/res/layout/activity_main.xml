@@ -6,13 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/ivLoginLogo"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tree"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/etLoginUsername"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/alien"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_user"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/alien"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_password"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btMenuLink1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="204dp"
+        android:text="ENTRAR"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:backgroundTint="@color/blue"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

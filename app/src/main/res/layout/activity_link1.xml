@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_link1">
+
+    <ImageView
+        android:id="@+id/ivLoginLogo"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tree"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="MENÚ AGENDA 2.1"
+        android:textColor="@color/blue"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btLink1Regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="@color/blue"
+        android:text="REGRESAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btLink1VerEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="308dp"
+        android:backgroundTint="@color/blue1"
+        android:text="VER EVENTO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btLink1CrearEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="@color/blue1"
+        android:text="CREAR EVENTO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btLink1ModificarEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="@color/blue1"
+        android:text="MODIFICAR EVENTO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="-32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

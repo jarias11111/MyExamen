@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_link2">
+
+    <ImageView
+        android:id="@+id/ivLoginLogo"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tree"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="VER EVENTOS"
+        android:textColor="@color/blue"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/alien"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_evento"
+        android:textColorHint="@color/blue"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/etDescription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/alien"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_evento1"
+        android:textColorHint="@color/blue"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <EditText
+        android:id="@+id/etDescription1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/alien"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_evento2"
+        android:textColorHint="@color/blue"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <Button
+        android:id="@+id/btLink2Regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="REGRESAR"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="155dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">MyExamen</string>
+    <string name="app_name">My Application 123</string>
+
+    <string name="hint_fecha">FECHA</string>
+    <string name="hint_hora">HORA</string>
+    <string name="hint_evento">EVENTO</string>
+    <string name="hint_evento1">EVENTO 1</string>
+    <string name="hint_evento2">EVENTO 2</string>
+    <string name="hint_user">USUARIO</string>
+    <string name="hint_password">PASSWORD</string>
+    <string name="hint_date">FECHA Y HORA</string>
+
 </resources>
